@@ -31,11 +31,11 @@ const Home = () => {
                 src="/img/meme-main.png"
                 className="w-full"
             />
-            <div className="flex flex-col mt-[98px] flex flex-col">
-                <div className="font-spicy text-[108px] text-[#F5B30D] gradient-text self-center">
-                    Solana Volume Booster
+            <div className="flex flex-col mt-[98px] flex flex-col text-center">
+                <div className="font-spicy md:text-[108px] text-[62px]  text-[#F5B30D]  gradient-text self-center">
+                    Solana Volume Booster
                 </div>
-                <div className="font-caveat text-white text-3xl self-center">
+                <div className="font-caveat text-white text-3xl self-center px-2">
                     Just three clicks stand between you and a $10 million boost in your project's volume.
                     <br />
                     Don't wait, act now to create a $MEME effect.
@@ -47,67 +47,67 @@ const Home = () => {
                     <img src={vector2} alt="vector2" className="cover float-left"></img>
 
                 </div>
-                <div className="flex">
-                    <div className="w-1/2 ml-36">
-                        <div className="font-spicy text-[62px] mt-20 text-[#F5B30D]">
-                            Boost the Visibility of Your Project and Attract More Investors
+                <div className="flex xl:flex-row flex-col">
+                    <div className="xl:w-1/2 w-full xl:ml-36 mx-2  text-center">
+                        <div className="font-spicy md:text-[62px] text-[48px] mx-2 mt-20 text-[#F5B30D]">
+                            Boost the Visibility of Your Project and Attract More Investors
                         </div>
-                        <div className="font-caveat text-white mt-6 text-[33px]">
-                            $Memes is your exclusive gateway to pushing your project's success on the Solana chain. Crafted for projects looking to bring in more
+                        <div className="font-caveat text-white mt-6 mx-4 text-[33px]">
+                            $Memes is your exclusive gateway to pushing your project's success on the Solana chain. Crafted for projects looking to bring in more
                             investors and increase their
-                            token' s visibility, $Memes is a perfect solution designed to boost trading volume and captivate the crypto community's attention.
+                            token' s visibility, $Memes is a perfect solution designed to boost trading volume and captivate the crypto community's attention.
                         </div>
                         <Button className="mt-16 text-white rounded-[9px] text-[20px] h-[74px] bg-bg-button w-[255px] self-center">
                             Access Bot
                         </Button>
                     </div>
-                    <div className="image2 w-1/2 mt-18 flex self-center">
-                        <img src={human} alt="human" className="cover float-right"></img>
+                    <div className="image2 xl:w-1/2 w-full mt-16 xl:flex xl:self-center">
+                        <img src={human} alt="human" className="cover float-right "></img>
                     </div>
                 </div>
                 <div className="flex flex-col items-center">
-                    <div className="font-spicy text-[104px] mt-20 text-[#F5B30D] gradient-text">
-                        Calculate your Estimate Volume
+                    <div className="font-spicy xl:text-[104px] md:text-[62px] sm:text-[48px] text-[36px] mx-2 mt-20 text-[#F5B30D] gradient-text">
+                        Calculate your Estimate Volume
                     </div>
-                    <div className="font-caveat text-white mt-6 text-[33px] text-center">
-                        Get an instant estimate of your trading volume potential with $Memes. Discover the <br />power of your project's growth using the calculator!
+                    <div className="font-caveat text-white mt-6 text-[33px] mx-4 text-center">
+                        Get an instant estimate of your trading volume potential with $Memes. Discover the power of your project's growth using the calculator!
                     </div>
                     <Button className="mt-16 text-white rounded-[9px] text-[20px] h-[74px] bg-bg-button w-[255px] self-center">
                         Access Bot
                     </Button>
                 </div>
                 <div className="flex container self-center mt-20 relative">
-                    <div className="border border-[#F5B30D] border-[3px] rounded-[42px] px-20 py-24 w-full mx-16 ">
-                        <div className="flex">
-                            <div className="w-1/2 flex flex-col justify-center">
+                    <div className="border border-[#F5B30D] border-[3px] rounded-[42px] max-md:px-4 px-20 py-24 w-full mx-16 ">
+                        <div className="flex xl:flex-row flex-col">
+                            <div className="xl:w-1/2 flex flex-col xl:text-left justify-center">
                                 <div className="font-spicy text-[33px] text-[#F5B30D]">
                                     Package:
                                 </div>
                                 <div className="font-caveat text-white text-[35px]">
-                                    Starter Booster 9 SOL
+                                    Starter Booster 9 SOL
                                 </div>
                             </div>
-                            <div className="flex w-1/2 justify-between">
-                                <img src={icon1} alt="icon1" className=""></img>
-                                <img src={icon2} alt="icon2" className=""></img>
-                                <img src={icon3} alt="icon3" className=""></img>
-                                <img src={icon4} alt="icon4" className=""></img>
+                            <div className="flex xl:w-1/2 max-sm:justify-center xl:mt-0 mt-4 max-md:flex-wrap flex-nowrap sm:justify-center sm:gap-4 justify-between">
+                                <img src={icon1} alt="icon1" className="m-2"></img>
+                                <img src={icon2} alt="icon2" className="m-2"></img>
+                                <img src={icon3} alt="icon3" className="m-2"></img>
+                                <img src={icon4} alt="icon4" className="m-2"></img>
                             </div>
                         </div>
-                        <div className="flex mt-20">
-                            <div className="w-1/2 flex flex-col justify-center">
-                                <div className="font-spicy text-[35px] text-[#F5B30D]">
+                        <div className="flex mt-20 xl:flex-row flex-col">
+                            <div className="xl:w-1/2 flex flex-col justify-center">
+                                <div className="font-spicy xl:text-left text-[35px] text-[#F5B30D]">
                                     Your token price change:
                                 </div>
                             </div>
-                            <div className="flex w-1/2 justify-between">
+                            <div className="flex xl:w-1/2 justify-center">
                                 <img src={icon5} alt="icon5" className=""></img>
                             </div>
                         </div>
-                        <div className="flex mt-16">
-                            <div className="w-1/2 flex flex-col justify-center">
-                                <div className="font-spicy text-[35px] text-[#F5B30D]">
-                                    Solana Price:
+                        <div className="flex mt-16 max-xl:justify-center">
+                            <div className="xl:w-1/2 flex flex-col justify-center">
+                                <div className="font-spicy max-xl:mx-4 xl:text-left text-[35px] text-[#F5B30D]">
+                                    Solana Price:
                                 </div>
                             </div>
                             <div className="flex flex flex-col justify-center">
@@ -116,7 +116,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full bg-[#F5B30D] flex py-16 mt-20 rounded-[13px]">
+                        <div className="w-full bg-[#F5B30D] flex xl:flex-row flex-col max-xl:items-center py-16 mt-20 rounded-[13px]">
                             <div className="w-1/2 flex flex-col justify-center items-center">
                                 <div className="font-spicy text-[48px] text-white">
                                     Estimate<br />Boost Volume:
@@ -129,39 +129,38 @@ const Home = () => {
                             </div>
                         </div>
                         <div>
-                            <img src={human2} alt="human2" className="absolute bottom-1 right-0 w-[30vw] "></img>
+                            <img src={human2} alt="human2" className="absolute bottom-1 right-0 xl:w-[30vw] max-xl:hidden"></img>
                         </div>
                     </div>
                 </div>
                 <div className="flex w-full mt-36">
-                    <div className="w-1/2 flex items-center justify-center">
+                    <div className="w-1/2 flex items-center justify-center visible max-xl:hidden">
                         <img src={thumb} alt="thumb" className="w-[72%]"></img>
                     </div>
-                    <div className="w-1/2 pr-20 flex flex-col justify-center ">
-                        <div className="font-spicy text-[62px] text-[#F5B30D]">
-                            Order Multiple $MEMES Bots
-                            In One Go
+                    <div className="xl:w-1/2 xl:pr-20 xl:px-0 px-8 flex flex-col justify-center">
+                        <div className="font-spicy text-center xl:text-[62px] text-[48px] text-[#F5B30D]">
+                            Order Multiple $MEMES Bots In One Go
                         </div>
-                        <div className="font-caveat text-white mt-6 text-[33px] pr-20">
-                            Highly recommended addition to the main $MEMES packages. With $MEMES you can significantly increase transaction amount, volume,
+                        <div className="font-caveat text-white mt-6 text-[33px]">
+                            Highly recommended addition to the main $MEMES packages. With $MEMES you can significantly increase transaction amount, volume,
                             and project visibility. $MEMES Bots operate for approximately 12 hours and can only be purchased with the main package
                         </div>
-                        <div className="flex justify-between">
+                        <div className="flex xl:justify-between justify-center xl:mt-0 mt-4">
                             <Button className="mt-16 text-white rounded-[9px] text-[20px] h-[74px] bg-bg-button w-[255px]">
                                 Access Bot
                             </Button>
-                            <img src={head} alt="head" className="w-[160px]"></img>
+                            <img src={head} alt="head" className="w-[160px] max-xl:hidden"></img>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col items-center mt-40">
                     <div className="font-spicy text-[62px] mt-20 text-[#F5B30D]">
-                        FOMO effect with $MEMES Bots
+                        FOMO effect with $MEMES Bots
                     </div>
                     <div className="font-caveat text-white mt-6 text-[33px] text-center">
                         Combine up to 6 MicroBots to generate transactions of varying<br /> sizes, creating a more organic chart appearance.
                     </div>
-                    <div className="flex mt-16 justify-between px-12">
+                    <div className="flex flex-wrap gap-8 max-xl:justify-center mt-16 justify-between px-12">
                         <Component1 src={arrowUp} alt="arrowUp" heading="More transactions" description="Each MicroBot doubles the number of transactions"></Component1>
                         <Component1 src={arrowUp45} alt="arrowUp45" heading="Greater visibility" description="More transactions for a bigger FOMO effect"></Component1>
                         <Component1 src={arrowRight} alt="arrowRight" heading="More organic volume" description="Higher organic volume from external sources"></Component1>
@@ -176,10 +175,10 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="font-spicy text-[62px] text-[#F5B30D] mt-40">
-                            Key Features Tailored for Your Project
+                            Key Features Tailored for Your Project
                         </div>
                         <div className="font-caveat text-white mt-6 text-[33px] text-center w-[975px]">
-                            Unlock the potential of your project with $MEMES, featuring a set of carefully crafted features designed to boost your project's visibility,
+                            Unlock the potential of your project with $MEMES, featuring a set of carefully crafted features designed to boost your project's visibility,
                             attract investors, and drive growth within the dynamic Solana chain.
                         </div>
                     </div>
@@ -192,20 +191,20 @@ const Home = () => {
                     {/* <img src="road.png" alt='road' className="pt-28"></img> */}
                     <div>
                         <div className="absolute left-[360px] top-[96px]">
-                            <Component2 heading="Investor Magnetism" description="Attract more investors by showcasing increased trading activity. 
-                        #MEME positions your project as a compelling opportunity, drawing in potential supporters."></Component2>
+                            <Component2 heading="Investor Magnetism" description="Attract more investors by showcasing increased trading activity. 
+                        #MEME positions your project as a compelling opportunity, drawing in potential supporters."></Component2>
                         </div>
                         <div className="absolute left-[1200px] top-[60px]">
-                            <Component2 heading="Exclusive Access" description="$MEME is designed exclusively for projects seeking enhanced
+                            <Component2 heading="Exclusive Access" description="$MEME is designed exclusively for projects seeking enhanced
                          visibility, growth, and increased exposure. With Orbitt MM, you can gain a competitive edge in the market and 
                          achieve your goals faster."></Component2>
                         </div>
                         <div className="absolute left-[100px] top-[460px]">
-                            <Component2 heading="Strategic Volume Boost" description="$MEME  focuses on strategically increasing your project's trading volume
+                            <Component2 heading="Strategic Volume Boost" description="$MEME  focuses on strategically increasing your project's trading volume
                          creating a dynamic environment that attracts potential investors."></Component2>
                         </div>
                         <div className="absolute left-[960px] top-[720px]">
-                            <Component2 heading="Flexible Packages" description="Instantly generate volume with our tailored packages. With $MEME your 
+                            <Component2 heading="Flexible Packages" description="Instantly generate volume with our tailored packages. With $MEME your 
                         volume creation begins immediately after purchasing a package."></Component2>
                         </div>
                         <div className="absolute right-[100px] top-[600px]">
@@ -213,7 +212,7 @@ const Home = () => {
                          Our team is here to assist in every step"></Component2>
                         </div>
                         <div className="absolute left-[360px] top-[1080px]">
-                            <Component3 heading2="Token Visibility Enhancement" description2="Elevate your token's visibility with Orbitt MM's specialized features. 
+                            <Component3 heading2="Token Visibility Enhancement" description2="Elevate your token's visibility with Orbitt MM's specialized features. 
                         Capture the crypto community's attention and stand out among other projects on the Solana network."></Component3>
                         </div>
                         <div className="flex justify-center">
@@ -226,10 +225,10 @@ const Home = () => {
                 <div className="flex mb-40">
                     <div className="w-1/2 mt-40 ml-36">
                         <div className="font-spicy text-[62px] mt-20 text-[#F5B30D]">
-                            Set $MEME directly <br />on Telegram
+                            Set $MEME directly <br />on Telegram
                         </div>
                         <div className="font-caveat text-white mt-6 text-[33px]">
-                            Explore the powerful capabilities of $MEME which is conveniently accessible on Telegram. Connect with a user-friendly bot that can help you achieve
+                            Explore the powerful capabilities of $MEME which is conveniently accessible on Telegram. Connect with a user-friendly bot that can help you achieve
                             success for your Solana project. Are you ready to learn more? Click 'Access Bot' and start your journey towards the future of tremendous growth.
                             Your path to success is just a few clicks away!
                         </div>
@@ -249,8 +248,8 @@ const Home = () => {
                             JOIN $MEME COMMUNITY
                         </div>
                         <div className="font-caveat text-white mt-6 text-[33px] pr-20  px-20 ">
-                            Be a part of the $MEME Community – your hub for engaging conversations, updates, and collaboration. Connect with like-minded
-                            enthusiasts on $MEME Telegram. Ready to join?
+                            Be a part of the $MEME Community – your hub for engaging conversations, updates, and collaboration. Connect with like-minded
+                            enthusiasts on $MEME Telegram. Ready to join?
                         </div>
 
                         <Button className="mt-16 text-white rounded-[9px] text-[20px] h-[74px] bg-bg-button w-[255px]">

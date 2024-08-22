@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}"
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}"
   ],
   theme: {
     extend: {
@@ -14,6 +16,10 @@ module.exports = {
         'caveat': ['Caveat Brush', 'cursive'], // Add 'cursive' as a fallback
         'spicy': ["Spicy Rice", 'serif']
       },
+      backgroundImage: {
+        'bot-pattern': "url('\img/bot-bg.png')",
+        'button-gradient': 'linear-gradient(170.24deg, #F5B30D 18.16%, #8F6808 110.68%)',
+      }
     },
   },
   plugins: [],

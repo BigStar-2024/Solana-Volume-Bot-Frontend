@@ -10,20 +10,26 @@ const Header = () => {
     const location = useLocation().pathname;
 
     return (
-        <div className="bg-bg-header w-full pl-[127px] pr-[98px] pt-[33px] pb-[22px] flex justify-between relative items-center">
+        <div className="bg-bg-header w-full xl:pl-[123px] lg:pl-[96px] pl-[96px]  pr-[98px] pt-[33px] pb-[22px] flex justify-between relative items-center relative">
             <Logo />
-            <div className="flex gap-[72px]">
-                <div className="flex gap-[30px] items-center">
-                    <Twitter />
-                    <Telegram />
-                </div>
-                <Button className="text-white rounded-[9px] bg-bg-button px-6 py-3 text-[20px] font-medium">
-                    Buy Now
-                </Button>
+            <div className="flex xl:gap-[75px] max-lg:hidden lg:gap-[48px] gap-[48px]">
+                <Link to="/" className={`text-[27px] font-bold ${location === "/" ? "text-bg-active" : "text-white"}`}>Home</Link>
+                <Link to="/memebot" className={`text-[27px] font-bold ${location === "/memebot" ? "text-bg-active" : "text-white"}`}>$MEMES bot</Link>
             </div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-[75px]">
-                <Link to="/" className={`text-[27px] font-bold ${location == "/" ? "text-bg-active" : "text-white"}`}>Home</Link>
-                <Link to="/bot" className={`text-[27px] font-bold ${location == "/bot" ? "text-bg-active" : "text-white"}`}>$MEMES bot</Link>
+            <div className="flex lg:gap-[72px] gap-[48px] items-center">
+                {
+                    location === "/" &&
+                    <div className="flex gap-[30px] items-center">
+                        <Twitter />
+                        <Telegram />
+                    </div>
+                }
+                <Button className="text-white max-xl:hidden rounded-[9px] bg-bg-button px-6 py-3 text-[20px] font-medium">
+                    {location === "/" ? "Buy Now" : "Connect Wallet"}
+                </Button>
+                <div className="dropdown lg:hidden">
+                    adfadf
+                </div>
             </div>
         </div>
     )
