@@ -1,6 +1,6 @@
 const Logo = () => {
     return (
-        <svg width="122" height="122" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg width="96" height="96" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <circle cx="61" cy="61" r="61" fill="url(#pattern0_2015_64)" />
             <defs>
                 <pattern id="pattern0_2015_64" patternContentUnits="objectBoundingBox" width="1" height="1">
